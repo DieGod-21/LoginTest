@@ -5,7 +5,7 @@ class TemplateController{
   //main view template
   public function index()
   {
-    include 'views/template';
+    include __DIR__ . '/../views/template.php';
   }
 
   //main route url
